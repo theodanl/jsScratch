@@ -47,24 +47,34 @@
 
 
 
-// function sum(a,b){
-//     return a+b;
+// function checkAge(age) {
+//     if (age > 18) {
+//       return true;
+//     } else {
+//       // ...
+//       return confirm('Родители разрешили?');
+//     }
+//   }
+//   checkAge();
+
+//Перепишите функцию, используя оператор '?' или '||'
+
+
+// function checkAge(age){
+//     return (age > 18) ? true : confirm('Родители разрешили?');
 // }
 
-// let result = sum(1,2)
-
-// alert(result);
+// checkAge();
 
 
-function showPrimes(n) {
-    nextPrime: for (let i = 2; i < n; i++) {
-  
-      for (let j = 2; j < i; j++) {
-        if (i % j == 0) continue nextPrime;
-      }
-  
-      alert( i ); // простое
-    }
-  }
+// function min(a,b) {
+//     if (a<b) {
+//         return a;
+//     } else {
+//         return b;
+//     }
+// }
 
-  showPrimes();
+
+// Напишите функцию pow(x,n), которая возводит x в степень n и возвращает результат.
+
